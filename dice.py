@@ -1,3 +1,7 @@
+# Multiple dice made within python
+# Program fully developed by Smoggy
+
+
 import random
 import time
 
@@ -8,6 +12,7 @@ max_range = 6
 diceRolls = int(input("How many dice do you want to roll: "))
 lmao = input("Are you ready to roll the dice? (Y/N): ")
 
+# Main "dice"/program
 while lmao == "Y":
     if diceRolls == 1:
         print("Your the dice said that your number is")
@@ -26,3 +31,14 @@ while lmao == "Y":
 else:
     print("You're free to exit")
 
+
+# Fully developed by Smoggy
+# Twitter --- @Smoggy445
+# Github --- @That-One-Guy-Smoggy
+
+# Notes:
+# I know this is not the most optimal set up, or maybe it is I don't really know as this is like the fourth or fifth
+# program I make. Please be respectful, I am a year 10 student who started learning Python over summer, mainly for fun
+# and to have an easier time on my current year group (Year 10). Thanks for viewing my program.
+#
+# I would really like feedback thank you! :)
